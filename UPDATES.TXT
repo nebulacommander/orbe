@@ -1,0 +1,33 @@
+
+3. Mobile-Specific Features Brainstorm:
+- Touch Gestures:
+  - Swipe up from chat input to expand conversation history
+  - Double tap on messages to react/like
+  - Long press for quick actions
+  - Two-finger pinch to zoom on code blocks/images
+  - Swipe left/right between different chat contexts
+
+- Mobile Enhancements:
+  - Haptic feedback on important actions
+  - Voice input with visual feedback
+  - Pull-to-refresh with custom animation
+  - Bottom sheet for advanced options
+  - Context menus optimized for thumb reach
+  - Floating action button for quick access
+
+- Mobile-Only Features:
+  - Camera input for code/error scanning
+  - Share sheet integration
+  - Native keyboard optimizations
+  - Mobile-specific shortcuts bar
+  - Quick share/export as images
+  - Smart suggestions based on device context
+
+- Unique Interactions:
+  - Tilt-based parallax effects
+  - 3D Touch/Force Touch actions
+  - Motion-based interactions
+  - Phone orientation-specific layouts
+  - Picture-in-picture chat mode
+
+Would you like me to elaborate on any of these points or provide more specific code implementations?
