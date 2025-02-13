@@ -1,14 +1,8 @@
 import type { Metadata } from "next";
 import { Inter, Outfit } from "next/font/google";
-import { ThemeProvider } from "@/components/ui/theme-provider"
 import "./globals.css";
-import {
-  ClerkProvider,
-  SignInButton,
-  SignedIn,
-  SignedOut,
-  UserButton
-} from '@clerk/nextjs'
+import { ClerkProvider } from "@clerk/nextjs";
+import { EnhancedLayout } from "./EnhancedLayout";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 const outfit = Outfit({ subsets: ["latin"], variable: "--font-outfit" });
@@ -25,18 +19,13 @@ export default function RootLayout({
 }>) {
   return (
     <ClerkProvider>
-    <html lang="en">
-      <body className={`${inter.variable} ${outfit.variable} font-sans antialiased`}>
-      <ThemeProvider
-          attribute="class"
-          defaultTheme="system"
-          enableSystem
-          disableTransitionOnChange
+      <html lang="en">
+        <body
+          className={`${inter.variable} ${outfit.variable} font-sans antialiased`}
         >
-        {children}
-      </ThemeProvider>
-      </body>
-    </html>
+          <EnhancedLayout>{children}</EnhancedLayout>
+        </body>
+      </html>
     </ClerkProvider>
   );
 }
