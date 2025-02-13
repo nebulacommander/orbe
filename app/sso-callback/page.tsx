@@ -25,10 +25,22 @@ export default function SSOCallback() {
   }, [handleRedirectCallback, router]);
 
   return (
-    <div className="flex min-h-screen items-center justify-center">
-      <div className="text-center">
-        <h2 className="text-xl font-semibold">Completing sign in...</h2>
-        <p className="text-muted-foreground">Please wait while we redirect you.</p>
+    <div className="flex min-h-screen items-center justify-center bg-gradient-to-br from-background to-secondary/20">
+      <div className="space-y-6 text-center">
+        {/* Loading Spinner */}
+        <div className="flex justify-center">
+          <div className="h-12 w-12 animate-spin rounded-full border-4 border-primary border-t-transparent"></div>
+        </div>
+        
+        {/* Text Content */}
+        <div className="space-y-2">
+          <h2 className="text-2xl font-semibold tracking-tight animate-pulse">
+            Completing sign in...
+          </h2>
+          <p className="text-muted-foreground">
+            Please wait while we redirect you
+          </p>
+        </div>
       </div>
     </div>
   );
