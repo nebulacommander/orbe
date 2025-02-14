@@ -197,53 +197,6 @@ const SignInButton = () => {
   );
 };
 
-/* Forgot password page
- *
- * This page is used to allow users to reset their password if they have forgotten it.
- *
- * The page includes a form for the user to enter their email address and receive a password reset link.
- *
- * The page also includes a link to the sign in page for users who remember their password.
- *
- * The page includes a link to the sign up page for users who do not have an account.
- *
- * Login Page
- *
- * This page is used to allow users to sign in to their account.
- *
- * It includes a form for the user to enter their email address and password.
- *
- * It also includes a button to accept the terms and conditions to sign in
- *
- * The page includes a link to the forgot password page for users who have forgotten their password.
- *
- * It allows other oauth to authentication methods such as Google and GitHub.
- *
- * So on the form, on click on the input field, the label should move up on the input and the input field should be focused with a gradient animated color.
- *
- * There should be icons for the email and password input fields.
- *
- * The button should have a gradient background color sensitive to light and dark mode and a hover effect.
- *
- * The ui should be minimalistic and clean, responsive for tablet both in portrait and landscape and accessible.
- *
- * It should have a dark mode and light mode.
- *
- * It should have a link to the sign up page.
- *
- * It should have a link to the forgot password page.
- *
- * It should have a link to the terms and conditions page.
- *
- * It should have a link to the privacy policy page.
- *
- * There should be a big OR with a line break to differentiate the sign in form and the oauth sign in methods.
- *
- * The oauth sign in methods should have a gradient background color sensitive to light and dark mode and a hover effect.
- *
- * The oauth sign in methods should have their logos and something like "Sign in with Google" or "Sign in with GitHub".
- */
-
 // Prompts for the chat input
 const prompts = [
   "Design a landing page...",
